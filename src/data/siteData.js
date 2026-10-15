@@ -3,6 +3,7 @@ import project2 from '../assets/images/2.png';
 import project3 from '../assets/images/3.png';
 import umrahAndBeyondImage from '../assets/images/umrah-and-beyond.jpg';
 import synclyImage from '../assets/images/syncly.png';
+import escenturyImage from '../assets/images/escentury.jpg';
 import profileImage from '../assets/images/hassan-dev-portrait.jpeg';
 import saraImage from '../assets/images/testimonials/sara.webp';
 import joeImage from '../assets/images/testimonials/joe.jpg';
@@ -11,7 +12,7 @@ export const personalInfo = {
   name: 'Hassan.Dev',
   title: 'Full-Stack Developer & AI Engineer',
   shortBio:
-    'I design and build modern web products with polished interfaces, reliable backends, and useful AI workflows.',
+    'Full-stack developer & AI engineer. I turn ideas into thoughtful digital products.',
   email: 'hassanghani001@gmail.com',
   phone: '0312-2416272',
   whatsapp: '923122416272',
@@ -31,22 +32,22 @@ export const stats = [
 export const services = [
   {
     title: 'Frontend',
-    description: 'Polished React interfaces that feel fast and clear.',
+    description: 'Fast, intuitive web experiences.',
   },
   {
     title: 'Backend',
-    description: 'APIs, auth, data models, and scalable server logic.',
+    description: 'Reliable APIs and scalable systems.',
   },
   {
-    title: 'AI',
-    description: 'Practical automations, assistants, and product workflows.',
+    title: 'AI & automation',
+    description: 'Useful assistants and smarter workflows.',
   },
 ];
 
 export const techStack = [
   {
     group: 'Languages',
-    items: ['Python', 'JavaScript', 'HTML5', 'CSS3'],
+    items: ['Python', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3'],
   },
   {
     group: 'Frontend',
@@ -54,7 +55,7 @@ export const techStack = [
   },
   {
     group: 'Backend',
-    items: ['Django', 'Django REST Framework', 'FastAPI', 'Flask', 'Node.js', 'Express.js'],
+    items: ['Django', 'Django REST Framework', 'FastAPI', 'Flask', 'Node.js', 'Express.js', 'Supabase', 'Firebase'],
   },
   {
     group: 'Databases',
@@ -63,6 +64,12 @@ export const techStack = [
 ];
 
 export const projects = [
+  {
+    title: 'Escentury',
+    category: 'E-commerce',
+    image: escenturyImage,
+    liveLink: 'https://www.escentury.com/',
+  },
   {
     title: 'Umrah & Beyond',
     category: 'Travel Platform',
