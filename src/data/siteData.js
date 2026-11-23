@@ -66,12 +66,14 @@ export const techStack = [
 export const projects = [
   {
     title: 'Escentury',
+    folder: 'E-commerce',
     category: 'E-commerce',
     image: escenturyImage,
     liveLink: 'https://www.escentury.com/',
   },
   {
     title: 'Umrah & Beyond',
+    folder: 'Web Apps',
     category: 'Travel Platform',
     description: 'A polished travel website for Umrah packages and booking inquiries.',
     image: umrahAndBeyondImage,
@@ -79,6 +81,7 @@ export const projects = [
   },
   {
     title: 'Syncly',
+    folder: 'Web Apps',
     category: 'Communication Platform',
     description: 'A modern communication product focused on connecting teams and conversations.',
     image: synclyImage,
@@ -86,6 +89,7 @@ export const projects = [
   },
   {
     title: 'HeySupport AI',
+    folder: 'AI & Chatbots',
     category: 'AI SaaS',
     description: 'Customer support automation with AI and live-agent flows.',
     image: project2,
@@ -93,6 +97,7 @@ export const projects = [
   },
   {
     title: 'Study Buddy',
+    folder: 'Web Apps',
     category: 'Full Stack',
     description: 'A collaborative study platform for discussion and learning.',
     image: project1,
@@ -100,6 +105,7 @@ export const projects = [
   },
   {
     title: 'Vibra UI',
+    folder: 'UI/UX & Landing Pages',
     category: 'Interface',
     description: 'An animated interface experiment with GSAP and Three.js.',
     image: project3,
